@@ -22,10 +22,11 @@
 @syntax-gutter-text-color: darken(@mocha, 70%);
 @syntax-gutter-text-color-selected: @syntax-gutter-text-color;
 @syntax-gutter-background-color: @mocha;
+
 @syntax-gutter-background-color-selected: rgba(0, 0, 0, .06);
 
 // For git diff info. i.e. in the gutter
 @syntax-color-renamed: @blue;
-@syntax-color-added: @green;
-@syntax-color-modified: @orange;
+@syntax-color-added: darken(@forest-green, 10%);
+@syntax-color-modified: @rust;
 @syntax-color-removed: @red;
