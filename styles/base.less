@@ -5,9 +5,13 @@ atom-text-editor, :host {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 
+  .scroll-view {
+    box-shadow: darken(@syntax-gutter-background-color, 10%) 2px 2px 11px 1px;
+  }
   .lines {
     background-color: @paper-color !important;
     background-image: @paper-texture;
+    border-left: 1px solid darken(@syntax-gutter-background-color, 20%);
   }
 
   .wrap-guide {
