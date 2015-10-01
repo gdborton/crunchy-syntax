@@ -3,7 +3,7 @@
 
 .pane {
   background-image: @paper-texture;
-  background-color: @paper-color !important;
+  background-color: @paper-color;
 }
 atom-text-editor, :host {
   color: @syntax-text-color;
@@ -31,7 +31,7 @@ atom-text-editor, :host {
 
     .line-numbers, .line-numbers > div {
       background-image: @paper-texture;
-      box-shadow: inset -4px 0 5px -6px darken(@syntax-gutter-background-color, 35%);
+      box-shadow: inset -4px 0 6px -5px darken(@syntax-gutter-background-color, 35%);
     }
 
     .line-number {
